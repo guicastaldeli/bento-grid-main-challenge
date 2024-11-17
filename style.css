@@ -1,0 +1,359 @@
+/* bg color */
+html {
+  background-color: #F5F5F5;
+}
+
+/* */
+.container-- {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+  top: 2rem;
+  /* classes */
+  /* --------- a --------- */
+  /* ------------------- */
+  /* --------- b --------- */
+  /* ------------------- */
+  /* --------- c --------- */
+  /* ------------------- */
+  /* */
+}
+.container-- .a-- {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  /* divs */
+  /* */
+}
+.container-- .a-- #o- {
+  width: 16rem;
+  height: 24rem;
+  border-radius: 0.4rem;
+  background-color: #FAEEE2;
+  /* p */
+  /* a */
+  /* */
+  /* */
+  /* img */
+  /* */
+}
+.container-- .a-- #o- p {
+  position: relative;
+  left: 2rem;
+  top: 2.1rem;
+  width: 15rem;
+  font-family: "DM Sans 14pt";
+  font-weight: 545;
+  font-size: 2.5rem;
+  letter-spacing: -0.25rem;
+  line-height: 0.9;
+  color: #0F0D0C;
+}
+.container-- .a-- #o- a {
+  font-style: italic;
+  color: #7753D1;
+}
+.container-- .a-- #o- img {
+  position: relative;
+  left: 2.2rem;
+  top: 1rem;
+  width: 11rem;
+  image-rendering: auto;
+}
+.container-- .a-- #t- {
+  width: 32rem;
+  height: 19rem;
+  border-radius: 0.4rem;
+  background-color: #7753D1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* p */
+  /* a */
+  /* */
+  /* span */
+  /* */
+  /* */
+  /* img */
+  /* */
+}
+.container-- .a-- #t- p, .container-- .a-- #t- a {
+  text-align: center;
+}
+.container-- .a-- #t- p {
+  position: relative;
+  top: 3.3rem;
+  font-family: "DM Sans 14pt";
+  font-weight: 450;
+  font-size: 3.5rem;
+  width: 35rem;
+  height: 18rem;
+  letter-spacing: -0.12rem;
+  line-height: 0.9;
+  color: #ffffff;
+}
+.container-- .a-- #t- #fs, .container-- .a-- #t- #ov {
+  display: block;
+}
+.container-- .a-- #t- #tt {
+  color: #FFCC69;
+}
+.container-- .a-- #t- #ov {
+  position: relative;
+  top: 3.8rem;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: -0.01rem;
+}
+.container-- .a-- #t- span {
+  font-style: italic;
+}
+.container-- .a-- #t- img {
+  position: absolute;
+  left: 11rem;
+  top: 11.5rem;
+  width: 10rem;
+}
+.container-- .a-- #tr- {
+  position: relative;
+  width: 16rem;
+  height: 36rem;
+  border-radius: 0.4rem;
+  background-color: #DCD1FC;
+  overflow: hidden;
+  /* p */
+  /* a */
+  /* */
+  /* */
+  /* img */
+  /* */
+}
+.container-- .a-- #tr- p {
+  position: relative;
+  top: 1rem;
+  left: 2rem;
+  display: block;
+  width: 12.5rem;
+  height: 28rem;
+  font-family: "DM Sans 14pt";
+  font-weight: 545;
+  font-size: 2rem;
+  line-height: 0.9;
+  letter-spacing: -0.09rem;
+}
+.container-- .a-- #tr- a {
+  position: relative;
+  top: 21.5rem;
+  display: block;
+  line-height: 1.15;
+  letter-spacing: -0.07rem;
+  font-size: 1.1rem;
+  font-weight: 420;
+}
+.container-- .a-- #tr- img {
+  position: relative;
+  top: -24.5rem;
+  left: 2rem;
+  width: 20rem;
+}
+.container-- .b-- {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  /* divs */
+  /* */
+}
+.container-- .b-- #fr- {
+  position: relative;
+  top: -10rem;
+  width: 16rem;
+  height: 27rem;
+  border-radius: 0.4rem;
+  background-color: #FFCC69;
+  /* p */
+  /* */
+  /* img */
+  /* */
+}
+.container-- .b-- #fr- p {
+  position: relative;
+  width: 13rem;
+  left: 1.5rem;
+  top: -0.8rem;
+  line-height: 0.9;
+  letter-spacing: -0.2rem;
+  font-family: "DM Sans 14pt";
+  font-weight: 545;
+  font-size: 2.5rem;
+}
+.container-- .b-- #fr- img {
+  position: absolute;
+  top: 11.5rem;
+  left: 1.5rem;
+  width: 14rem;
+}
+.container-- .b-- div {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: -2.56rem;
+  gap: 1rem;
+}
+.container-- .b-- #fv- {
+  position: relative;
+  top: -12.5rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 0.4rem;
+  background-color: #ffffff;
+  overflow: hidden;
+  /* p */
+  /* */
+  /* img */
+  /* */
+}
+.container-- .b-- #fv- p {
+  position: relative;
+  top: 5rem;
+  left: 1.3rem;
+  width: 11rem;
+  font-family: "DM Sans 14pt";
+  font-weight: 545;
+  font-size: 1.7rem;
+  line-height: 0.9;
+}
+.container-- .b-- #fv- img {
+  position: absolute;
+  top: 1rem;
+  left: 1.1rem;
+  filter: drop-shadow(0px 8px 5px rgba(0, 0, 0, 0.0431372549));
+  width: 19rem;
+}
+.container-- .b-- #s- {
+  position: relative;
+  top: -12.5rem;
+  left: 1rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 0.4rem;
+  background-color: #FFCC69;
+  overflow: hidden;
+  /* p */
+  /* */
+  /* img */
+  /* */
+}
+.container-- .b-- #s- p {
+  position: relative;
+  left: 1.3rem;
+  top: 0.5rem;
+  width: 12rem;
+  font-family: "DM Sans 14pt";
+  font-weight: 545;
+  font-size: 1.7rem;
+  line-height: 0.9;
+}
+.container-- .b-- #s- img {
+  position: absolute;
+  left: 1.3rem;
+  top: 9.48rem;
+  width: 12rem;
+}
+.container-- .c-- {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  left: 18rem;
+  top: -26rem;
+  gap: 2rem;
+  /* divs */
+  /* */
+}
+.container-- .c-- #sv- {
+  position: relative;
+  top: 0.99rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 0.4rem;
+  background-color: #ffffff;
+  /* p */
+  /* a */
+  /* */
+  /* */
+  /* img */
+  /* */
+}
+.container-- .c-- #sv- p {
+  position: relative;
+  top: -3rem;
+  left: 1rem;
+  width: 12rem;
+  height: 8rem;
+  font-family: "DM Sans 14pt";
+  font-weight: 545;
+  font-size: 4rem;
+  line-height: 1.15;
+  letter-spacing: -0.25rem;
+}
+.container-- .c-- #sv- a {
+  position: relative;
+  top: -2rem;
+  left: 0rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: -0.04rem;
+}
+.container-- .c-- #sv- img {
+  position: relative;
+  top: -6.5rem;
+  left: 1rem;
+  width: 11.5rem;
+}
+.container-- .c-- #eg- {
+  position: relative;
+  top: 0.99rem;
+  width: 33rem;
+  height: 15rem;
+  border-radius: 0.4rem;
+  background-color: #7753D1;
+  /* p */
+  /* */
+  /* img */
+  /* */
+}
+.container-- .c-- #eg- p {
+  position: relative;
+  left: 16.7rem;
+  top: 2.1rem;
+  width: 14.5rem;
+  font-size: 2.05rem;
+  font-weight: 545;
+  font-family: "DM Sans 14pt";
+  line-height: 1.05;
+  color: #ffffff;
+}
+.container-- .c-- #eg- img {
+  position: relative;
+  left: 1.5rem;
+  top: -9rem;
+  width: 14.5rem;
+}
+
+.attribution {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans 14pt";
+  font-size: 0.8rem;
+  font-weight: bold;
+  top: 47rem;
+}
+.attribution a {
+  margin-left: 0.2rem;
+}/*# sourceMappingURL=style.css.map */

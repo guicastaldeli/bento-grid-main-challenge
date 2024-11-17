@@ -1,0 +1,477 @@
+$dfFont: 'DM Sans 14pt';
+
+/* bg color */
+    html {
+        background-color: #F5F5F5;
+    }
+/* */
+
+.container-- {
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    height: 15rem;
+
+    top: 2rem;
+
+    /* classes */
+        /* --------- a --------- */
+            .a-- {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                
+                gap: 2rem;
+
+                /* divs */
+                    #o- {
+                        width: 16rem;
+                        height: 24rem;
+
+                        border-radius: 0.4rem;
+
+                        background-color: #FAEEE2;
+
+                        /* p */
+                            p {
+                                position: relative;
+                                left: 2rem;
+                                top: 2.1rem;
+                                
+                                width: 15rem;
+
+                                font-family: $dfFont;
+                                font-weight: 545;
+                                font-size: 2.5rem;
+
+                                letter-spacing: -0.25rem;
+                                line-height: 0.9;
+
+                                color: #0F0D0C;
+                            }
+
+                            /* a */
+                                a {
+                                    font-style: italic;
+
+                                    color: #7753D1;
+                                }
+                            /* */
+                        /* */
+
+                        /* img */
+                            img {
+                                position: relative;
+                                left: 2.2rem;
+                                top: 1rem;
+
+                                width: 11rem;
+
+                                image-rendering: auto;
+                            }
+                        /* */
+                    }
+
+                    #t- {
+                        width: 32rem;
+                        height: 19rem;
+
+                        border-radius: 0.4rem;
+
+                        background-color: #7753D1;
+
+                        position: relative;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        /* p */
+                            p, a {
+                                text-align: center;
+                            }
+
+                            p {
+                                position: relative;
+                                top: 3.3rem;
+
+                                font-family: $dfFont;
+                                font-weight: 450;
+                                font-size: 3.5rem;
+
+                                width: 35rem;
+                                height: 18rem;
+
+                                letter-spacing: -0.12rem;
+                                line-height: 0.9;
+
+                                color: #ffffff;
+                            }
+
+                            /* a */
+                                #fs, #ov {
+                                    display: block;
+                                }
+
+                                #tt {
+                                    color: #FFCC69;
+                                }
+
+                                #ov {
+                                    position: relative;
+                                    top: 3.8rem;
+
+                                    font-weight: 300;
+                                    font-size: 1rem;
+                                    
+                                    letter-spacing: -0.01rem;
+                                }
+                            /* */
+
+                            /* span */
+                                span {
+                                    font-style: italic;
+                                }
+                            /* */
+                        /* */
+                        
+                        /* img */
+                            img {
+                                position: absolute;
+                                left: 11rem;
+                                top: 11.5rem;
+
+                                width: 10rem;
+                            }
+                        /* */
+                    }
+
+                    #tr- {
+                        position: relative;
+                        width: 16rem;
+                        height: 36rem;
+
+                        border-radius: 0.4rem;
+                        
+                        background-color: #DCD1FC;
+
+                        overflow: hidden;
+
+                        /* p */
+                            p {
+                                position: relative;
+                                top: 1rem;
+                                left: 2rem;
+
+                                display: block;
+
+                                width: 12.5rem;
+                                height: 28rem;
+
+                                font-family: $dfFont;
+                                font-weight: 545;
+                                font-size: 2rem;
+
+                                line-height: 0.9;
+                                letter-spacing: -0.09rem;
+                            }
+
+                            /* a */
+                                a {
+                                    position: relative;
+                                    top: 21.5rem;
+
+                                    display: block;
+
+                                    line-height: 1.15;
+                                    letter-spacing: -0.07rem;
+
+                                    font-size: 1.1rem;
+                                    font-weight: 420;
+                                }
+                            /* */
+                        /* */
+
+                        /* img */
+                            img {
+                                position: relative;
+                                top: -24.5rem;
+                                left: 2rem;
+                                
+                                width: 20rem;
+                            }
+                        /* */
+                    }
+                /* */
+            }
+        /* ------------------- */
+        
+        /* --------- b --------- */
+            .b-- {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+
+                gap: 2rem;
+
+                /* divs */
+                    #fr- {
+                        position: relative;
+                        top: -10rem;
+                        
+                        width: 16rem;
+                        height: 27rem;
+
+                        border-radius: 0.4rem;
+
+                        background-color: #FFCC69;
+
+                        /* p */
+                            p {
+                                position: relative;
+                                width: 13rem;
+                                left: 1.5rem;
+                                top: -0.8rem;
+
+                                line-height: 0.9;
+                                letter-spacing: -0.20rem;
+
+                                font-family: $dfFont;
+                                font-weight: 545;
+                                font-size: 2.5rem;
+                            }
+                        /* */
+
+                        /* img */
+                            img {
+                                position: absolute;
+                                top: 11.5rem;
+                                left: 1.5rem;
+                                width: 14rem;
+                            }
+                        /* */
+                    }
+
+                    div {
+                        position: relative;
+                        display: flex;
+                        flex-direction: row;
+
+                        top: -2.56rem;
+                        
+                        gap: 1rem;
+                    }
+
+                    #fv- {
+                        position: relative;
+                        top: -12.5rem;
+
+                        width: 15rem;
+                        height: 15rem;
+
+                        border-radius: 0.4rem;
+
+                        background-color: #ffffff;
+
+                        overflow: hidden;
+
+                        /* p */
+                            p {
+                                position: relative;
+                                top: 5rem;
+                                left: 1.3rem;
+
+                                width: 11rem;
+
+                                font-family: $dfFont;
+                                font-weight: 545;
+                                font-size: 1.7rem;
+
+                                line-height: 0.9;
+                            }
+                        /* */
+
+                        /* img */
+                            img {
+                                position: absolute;
+                                top: 1rem;
+                                left: 1.1rem;
+
+                                filter: drop-shadow(0px 8px 5px #0000000b);
+
+                                width: 19rem;
+                            }
+                        /* */
+                    }
+
+                    #s- {
+                        position: relative;
+                        top: -12.5rem;
+                        left: 1rem;
+
+                        width: 15rem;
+                        height: 15rem;
+
+                        border-radius: 0.4rem;
+
+                        background-color: #FFCC69;
+
+                        overflow: hidden;
+
+                        /* p */
+                            p {
+                                position: relative;
+                                left: 1.3rem;
+                                top: 0.5rem;
+
+                                width: 12rem;
+
+                                font-family: $dfFont;
+                                font-weight: 545;
+                                font-size: 1.7rem;
+
+                                line-height: 0.9;
+                            }
+                        /* */
+
+                        /* img */
+                            img {
+                                position: absolute;
+                                left: 1.3rem;
+                                top: 9.48rem;
+
+                                width: 12rem;
+                            }
+                        /* */
+                    }
+                /* */
+            }
+        /* ------------------- */
+
+        /* --------- c --------- */
+            .c-- {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+
+                left: 18rem;
+                top: -26rem;
+
+                gap: 2rem;
+
+                /* divs */
+                    #sv- {
+                        position: relative;
+                        top: 0.99rem;
+
+                        width: 15rem;
+                        height: 15rem;
+
+                        border-radius: 0.4rem;
+
+                        background-color: #ffffff;
+
+                        /* p */
+                            p {
+                                position: relative;
+                                top: -3rem;
+                                left: 1rem;
+
+                                width: 12rem;
+                                height: 8rem;
+
+                                font-family: $dfFont;
+                                font-weight: 545;
+                                font-size: 4rem;
+
+                                line-height: 1.15;
+                                letter-spacing: -0.25rem;
+                            }
+
+                            /* a */
+                                a {
+                                    position: relative;
+                                    top: -2rem;
+                                    left: 0rem;
+
+                                    font-size: 1.2rem;
+                                    font-weight: 400;
+
+                                    letter-spacing: -0.04rem;
+                                }
+                            /* */
+                        /* */
+
+                        /* img */
+                            img {
+                                position: relative;
+                                top: -6.5rem;
+                                left: 1rem;
+
+                                width: 11.5rem;
+                            }
+                        /* */
+                    }
+
+                    #eg- {
+                        position: relative;
+                        top: 0.99rem;
+
+                        width: 33rem;
+                        height: 15rem;
+
+                        border-radius: 0.4rem;
+
+                        background-color: #7753D1;
+
+                        /* p */
+                            p {
+                                position: relative;
+                                left: 16.7rem;
+                                top: 2.1rem;
+
+                                width: 14.5rem;
+
+                                font-size: 2.05rem;
+                                font-weight: 545;
+                                font-family: $dfFont;
+
+                                line-height: 1.05;
+                                
+                                color: #ffffff;
+                            }
+                        /* */
+
+                        /* img */
+                            img {
+                                position: relative;
+                                left: 1.5rem;
+                                top: -9rem;
+                                
+                                width: 14.5rem;
+                            }
+                        /* */
+                    }
+                /* */
+            }
+        /* ------------------- */
+    /* */
+}
+
+.attribution {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: $dfFont;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+    top: 47rem;
+
+    a {
+        margin-left: 0.2rem;
+    }
+}
